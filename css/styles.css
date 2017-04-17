@@ -3,3 +3,35 @@ div.vk_ans {
     font-weight: lighter !important;
     margin-bottom: 5px;
 }
+
+div.vmod {
+    font-size: 1em;
+}
+
+.resource {
+    float: left;
+    margin-right: 2%;
+}
+
+.review {
+    margin-top: 5%;
+    font-size: 1.25em;
+}
+
+p.clearFloat {
+    clear: both;
+}
+
+iframe {
+    clear: both;
+}
+
+div.wip {
+    width: 100%;
+    /*margin: 0 auto 0 auto;*/
+    margin-left: 10%;
+}
+
+div.wip a {
+    display: block;
+}
