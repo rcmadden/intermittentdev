@@ -1,13 +1,59 @@
-div.vk_ans {
-    font-size: xx-large !important;
-    font-weight: lighter !important;
-    margin-bottom: 5px;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',arial,sans-serif;
+}
+div.definition {
+    /*font-family: 'Roboto',arial,sans-serif;*/
+    width: 50%;
+    border: 1px solid lightgrey;
+    margin: 1% auto auto auto;
+    padding: 1% 0 1% 1%;
+}
+.def_chars_xl {
+    font-size: x-large;
+    color: #878787;
+    font-weight: 500;
+}
+.def_chars_lg {
+    font-size: 2em;
+}
+.def_chars_md{
+    font-size: 1.5em;
+    margin-bottom: 1%;
+}
+div.quoted {
+    /*font-size: 1em;*/
+    color: #878787;
 }
 
-div.vmod {
-    font-size: 1em;
+div.italicized {
+    font-style: italic;
+    color: #878787;
+}
+div.padded-left {
+    padding-left: 3%;
+    font-weight: lighter;
+}
+div.padded-left_0 {
+    padding-left: 3%;
+}
+div.padded-left i {
+    color: #878787;
 }
 
+div#main {
+    width:100%;
+
+}
+
+.portfolio {
+    width: 48.5%;
+    float: left;
+    border: 1px solid #878787;
+    padding-right: 0;
+    margin-left: .75%;
+}
 .resource {
     float: left;
     margin-right: 2%;
@@ -17,7 +63,15 @@ div.vmod {
     margin-top: 5%;
     font-size: 1.25em;
 }
-
+.project {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    /*background-image: url('/img/san_diego_restaurants.png');*/
+}
+.project img {
+    max-width: 100%;
+}
 p.clearFloat {
     clear: both;
 }
